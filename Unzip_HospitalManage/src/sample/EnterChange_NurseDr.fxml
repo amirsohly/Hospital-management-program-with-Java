@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EnterchangeNursrDr_Controller">
+   <children>
+      <Pane layoutX="-1.0" layoutY="1.0" prefHeight="198.0" prefWidth="374.0">
+         <children>
+            <TextField fx:id="txt_Change_User" layoutX="173.0" layoutY="22.0" />
+            <Label layoutX="36.0" layoutY="54.0" prefHeight="27.0" prefWidth="90.0" text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_Change_Pass" layoutX="173.0" layoutY="55.0" />
+            <Button layoutX="208.0" layoutY="99.0" mnemonicParsing="false" onAction="#btn_Change_Ok" prefHeight="27.0" prefWidth="80.0" text="Ok" />
+            <Button layoutX="76.0" layoutY="99.0" mnemonicParsing="false" onAction="#btn_Change_cancel_OnAction" prefHeight="27.0" prefWidth="80.0" text="Cancel" />
+            <Label fx:id="lbl_Change_status" layoutX="85.0" layoutY="152.0" prefHeight="25.0" prefWidth="206.0" />
+            <Label layoutX="36.0" layoutY="21.0" prefHeight="27.0" prefWidth="90.0" text="UserName">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Edit_NurseDr_Conrtoller">
+   <children>
+      <Label layoutX="85.0" layoutY="70.0" prefHeight="30.0" prefWidth="122.0" text="FirstName">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="120.0" prefHeight="30.0" prefWidth="122.0" text="lastName">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="175.0" prefHeight="30.0" prefWidth="150.0" text="New NurseName">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="235.0" prefHeight="30.0" prefWidth="130.0" text="New DrName">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_EditNurseDr_FName" layoutX="251.0" layoutY="69.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField fx:id="txt_EditNurseDr_LName" layoutX="251.0" layoutY="116.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField fx:id="txt_EditNurseDr_NurseName" layoutX="251.0" layoutY="175.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField fx:id="txt_EditNurseDr_DrName" layoutX="251.0" layoutY="235.0" prefHeight="30.0" prefWidth="149.0" />
+      <Button layoutX="435.0" layoutY="313.0" mnemonicParsing="false" onAction="#btn_EditNurseDr_Nurse_OnAction" prefHeight="38.0" prefWidth="102.0" text="Edit Nurse">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="305.0" layoutY="313.0" mnemonicParsing="false" onAction="#btn_EditNurseDr_Dr_onAction" prefHeight="38.0" prefWidth="102.0" text="Edit  Dr">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="173.0" layoutY="313.0" mnemonicParsing="false" onAction="#btn_EditNurseDr_cancel_OnAction" prefHeight="38.0" prefWidth="102.0" text="Cancel">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbl_EditNurseDr_status" layoutX="172.0" layoutY="389.0" prefHeight="46.0" prefWidth="363.0" />
+   </children>
+</AnchorPane>
